@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s;
+  overflow-x: hidden;
+}
+
+button {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+input:focus {
+  @apply ring-2 ring-blue-400;
+}

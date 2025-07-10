@@ -2,6 +2,7 @@ import React from "react";
 import PomodoroTimer from "./components/PomodoroTimer";
 import TaskManager from "./components/TaskManager";
 import StatsDashboard from "./components/StatsDashboard";
+import "./styles.css";
 
 export default function App() {
   return (
