@@ -1,7 +1,7 @@
 import React from "react";
-import PomodoroTimer from "./components/PomodoroTimer";
-import TaskManager from "./components/TaskManager";
-import StatsDashboard from "./components/StatsDashboard";
+import PomodoroTimer from "./Components/PomodoroTimer";
+import TaskManager from "./Components/TaskManager";
+import StatsDashboard from "./Components/StatsDashboard";
 
 export default function App() {
   return (
